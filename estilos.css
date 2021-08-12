@@ -7,3 +7,14 @@ background-position: center;
 background-size: cover;
 background-attachment: fixed;
 }
+
+.titulo{
+    text-align: center;
+    margin-top: 70px;
+}
+.titulo h1{
+    font-size: 50px;
+}
+.titulo p{
+    font-size: 20px;
+}
