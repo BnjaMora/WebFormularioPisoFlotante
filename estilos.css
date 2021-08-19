@@ -31,6 +31,8 @@
 .container_formulario {
     justify-content: center;
     display: flex;
+    float: left;
+    margin-left: 30px;
 }
 
 .formulario {
@@ -58,4 +60,25 @@
 
 .form {
     display: flex;
+}
+
+/*CSS FONDO_RESULTADO*/
+
+.fondo_resultado {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.container_fondo {
+    float: left;
+    margin-left: 30px;
+    display: flex;
+}
+
+p{
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
 }
