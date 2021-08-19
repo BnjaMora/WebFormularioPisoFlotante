@@ -46,16 +46,16 @@
                 <div class="form">
                     <div class="col-md-6 mb-3">
                         <label for="validationDefault01">Ancho Piso:</label>
-                        <input type="number" class="form-control" id="ancho" required>
+                        <input type="number" class="form-control" id='ancho' required>
                     </div>
                     <div class="col-md-6 mb-3">
                         <label for="validationDefault01">Largo Piso:</label>
-                        <input type="number" class="form-control" id="largo" required>
+                        <input type="number" class="form-control" id='largo' required>
                     </div>
                 </div>
             </form>
             <div>
-                <button class="boton btn-primary" onclick="Area()" type="button">Cotizar</button>
+                <button class="boton btn-primary" id='cotizar' >Cotizar</button>
             </div>
         </div>
     </div>
@@ -66,9 +66,11 @@
         <div class="fondo_resultado">
             <div>
                 <p>m2 Totales</p>
+                <p class="m2" id='resultadoM2'></p>
             </div>
             <div>
                 <p>Total del Trabajo</p>
+                <p class="total" id="resultadoTotal"></p>
             </div>
         </div>
         <!--Termino Resultado-->
